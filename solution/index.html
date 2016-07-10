@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Module-2 Solution</title>
+<style>
+*{
+	box-sizing: border-box;
+    margin-left:auto;
+    margin-right: auto;
+}
+div{
+	margin-bottom:15px;
+}
+h1{
+	text-align: center;
+	font-family:"Times New Roman";
+	margin-top: 20px;
+	margin-bottom:50px;
+
+}
+.col{
+	height:200px;
+	width:90%;
+	border: 2px solid black;
+    background-color:red;
+    position:relative;
+    overflow: auto;
+    text-align: justify;	
+}
+.p{
+	height:40px;
+	width:30%;
+	border:2px solid green;
+	font-size: 20px;
+	padding:10px;
+	text-align:center;
+	position:relative;
+	margin:0;
+	top:0px;
+	left:70%;
+}
+.color1{
+	background-color:#ff0099;
+}
+.color2{
+	background-color:#56ff45;
+}
+.color3{
+	background-color: #7600ff;
+}
+.row{
+	width:100%;
+}
+@media(min-width: 992px){
+   .p1{
+   	position:relative;
+   	width:33.33%;
+   	float:left;
+}
+    .p2{
+    	position: relative;
+     width:33.33%;
+     float:left;
+}
+    .p3{
+    	position: relative;
+     width:33.33%;
+     float:left;
+}
+}
+@media(min-width: 768px) and (max-width:991px){
+   .p1{
+   	position: relative;
+   	width:50%;
+   	float:left;
+   	
+   	
+    }
+    .p2{
+    	position: relative;
+     width:50%;
+     float:left;
+     
+    
+    }
+    .p3{
+    	position: relative;
+     width:100%;
+     float:left;
+          
+    
+    }
+
+}
+@media(max-width: 767px){
+    .p1,.p2,.p3{
+     position: relative;
+     width:100%;
+     float:left;
+     	  
+        
+    } 
+}
+</style>
+</head>
+<body>
+<div class="row">
+<h1><u>Web Development</u></h1>
+<div class="p1"><div class="col"><p class="p color1">HTML</p>Hypertext Markup Language,commonly abbreviated as HTML,is the standard markup language used to create web pages.Along with CSS and Javascript, HTML is a cornerstone technology used to create pages, as well as to creae UI for mobile and web applications.</div></div>
+<div class="p2"><div class="col"><p class="p color2">CSS</p>Cascading Style Sheet(CSS) is a style sheet language used for describing the presentation of a document written in a markup language.Although most often used to set the visual style of web pages and user interfaces written in HTML and XTML,and is applicable to rendering in speech,or on media.</div></div>
+<div class="p3"><div class="col"><p class="p color3">Javascript.</p>Javascript is a high level,dynamic,untyped,and interpreted programming lanuage.It has been standardized in the ECMAScript language specification.Alongside HTML and CSS,it is one of the three core technologies of World Wide Web content production;the majority of websites employ it and it is supported by all modern Web browsers without plugins.</div></div>
+</div>
+</body>
+</html>
+
